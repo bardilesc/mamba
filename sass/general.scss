@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin centrado {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal-requerimiento{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    @include centrado();
+    .contenedor-req{
+        width: 90%;
+    }
+}
+
+

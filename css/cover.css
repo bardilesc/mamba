@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-requerimiento {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.modal-requerimiento .contenedor-req {
+  width: 90%;
+}
+
+.cover {
+  height: 70vh;
+  background-color: rgb(0, 10, 20);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cover .contenedor-cover {
+  text-align: center;
+}
+.cover .contenedor-cover h1 {
+  font-size: 70px;
+}
+.cover .contenedor-cover h2 {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=cover.css.map */
