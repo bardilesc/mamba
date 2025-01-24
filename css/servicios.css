@@ -1,8 +1,19 @@
 @import url(general.css);
 
+:root {
+    --color-base: rgba(0, 10, 20, 1); /* #000A14 */
+    --color-claro: rgba(15, 25, 35, 1); /* #0F1923 */
+    --color-intermedio: rgba(30, 45, 60, 1); /* #1E2D3C */
+    --color-complementario-calido: rgb(65, 200, 209); /* #C85A3C */
+    --color-secundario-frio: rgba(0, 80, 120, 1); /* #005078 */
+  
+    /* Transparencias útiles */
+    --color-base-semitransparente: rgba(0, 10, 20, 0.5);
+    --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
+  }
+  
 section.pricing {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: var(--color-intermedio);
   }
   
   .pricing .card {
@@ -48,6 +59,8 @@ section.pricing {
     padding: 1rem;
     opacity: 0.7;
     transition: all 0.2s;
+    background-color: var(--color-base);
+    color: white;
   }
   
   /* Hover Effects on Card */
