@@ -1,7 +1,29 @@
+:root {
+  --color-base: rgba(0, 10, 20, 1); /* #000A14 */
+  --color-claro: rgba(15, 25, 35, 1); /* #0F1923 */
+  --color-intermedio: rgba(30, 45, 60, 1); /* #1E2D3C */
+  --color-complementario-calido: rgb(65, 200, 209); /* #C85A3C */
+  --color-secundario-frio: rgba(0, 80, 120, 1); /* #005078 */
+
+  /* Transparencias útiles */
+  --color-base-semitransparente: rgba(0, 10, 20, 0.5);
+  --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
+p, h1, h2, h3, h4, h5, h6, a, span {
+  color: var(--color-base);
+}
+
+
 
 .modal-requerimiento {
   width: 80%;
@@ -18,4 +40,6 @@
   width: 90%;
 }
 
-/*# sourceMappingURL=general.css.map */
+.enlaces{
+  color: var(--color-base);
+}

@@ -1,0 +1,14 @@
+@import url(general.css);
+  
+/* Ajustar tamaño del logo */
+.logo {
+    max-height: 50px; /* Tamaño del logo */
+    margin-right: 1rem; /* Separación del resto del contenido */
+  }
+  
+  /* Navbar fijo con sombra */
+  .navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 0.5rem 1rem;
+  }
+  

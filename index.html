@@ -1,289 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamba | CL</title>
-    <link rel="stylesheet" href="./css/cover.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamba | CL</title>
+  <link rel="stylesheet" href="./css/cover.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed;z-index: 100;width: 100vw;">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pregutas frecuentes</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Servicios
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Planes</a>
-                <a class="dropdown-item" href="#"></a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Websites</a>
-                <a class="dropdown-item" href="#">Mantenciones</a>
-                <a class="dropdown-item" href="#">Administracion</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; z-index: 100; width: 100vw;">
+    <div class="container-fluid">
+      <!-- Logo a la izquierda -->
+      <a class="navbar-brand" href="#"><img class="logo" src="img/Logo.png" alt="Logo"></a>
+      <!-- Botón del menú a la derecha -->
+      <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Contenido del navbar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link enlaces" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlaces" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlaces" href="#preguntas">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle enlaces" href="#servicios" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Servicios
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item enlaces" href="#">Planes</a>
+              <a class="dropdown-item enlaces" href="#">Websites</a>
+              <a class="dropdown-item enlaces" href="#">Mantenciones</a>
+              <a class="dropdown-item enlaces" href="#">Administración</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 cover">
+        <div class="contenedor-cover">
+          <h1>Mamba</h1>
+          <h2>AGENCIA DIGITAL</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Nuestros Servicios</h2>
+        <p class="text-muted">Conoce las soluciones que ofrecemos para ti</p>
+      </div>
+      <div class="row gy-4">
+        <!-- Servicio 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-brush fs-1 text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Diseño Creativo</h5>
+            <p class="text-muted">Creamos diseños únicos y personalizados que inspiran y comunican.</p>
+          </div>
+        </div>
+        <!-- Servicio 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-laptop fs-1 text-success"></i>
+            </div>
+            <h5 class="fw-bold">Desarrollo Web</h5>
+            <p class="text-muted">Sitios web funcionales y responsivos para impulsar tu presencia online.</p>
+          </div>
+        </div>
+        <!-- Servicio 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-graph-up-arrow fs-1 text-warning"></i>
+            </div>
+            <h5 class="fw-bold">SEO Básico</h5>
+            <p class="text-muted">Optimización de tu sitio web para mejorar su visibilidad en motores de búsqueda.</p>
+          </div>
+        </div>
+        <!-- Servicio 4 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-cloud fs-1 text-info"></i>
+            </div>
+            <h5 class="fw-bold">Diseño UX/UI</h5>
+            <p class="text-muted">Creamos experiencias y interfaces de usuario intuitivas y atractivas para mejorar la
+              interacción con tus productos digitales.</p>
+          </div>
+        </div>
+        <!-- Servicio 5 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-shield-lock fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">Protección de Sistemas y Datos</h5>
+            <p class="text-muted">Implementamos soluciones avanzadas para proteger tus sistemas y datos de posibles
+              amenazas cibernéticas.</p>
+          </div>
+        </div>
+        <!-- Servicio 6 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center p-4 border rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <i class="bi bi-people fs-1 text-secondary"></i>
+            </div>
+            <h5 class="fw-bold">Consultoría TI</h5>
+            <p class="text-muted">Coordinamos y gestionamos tus proyectos digitales, asegurando plazos y resultados de
+              calidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="nosotros" class="py-5 bg-light pt-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Sobre Nosotros</h2>
+        <p class="text-muted">Conoce nuestra historia, valores y lo que nos impulsa a seguir adelante.</p>
+      </div>
+      <div class="row gy-4">
+        <!-- Misión -->
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center border-0">
+            <div class="card-body">
+              <div class="mb-3">
+                <i class="bi bi-bullseye fs-1 text-primary"></i>
               </div>
-            </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <h5 class="card-title fw-bold">Nuestra Misión</h5>
+              <p class="card-text">Proveer soluciones innovadoras que mejoren la vida de nuestros clientes y generen un
+                impacto positivo en la comunidad.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Visión -->
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center border-0">
+            <div class="card-body">
+              <div class="mb-3">
+                <i class="bi bi-lightbulb fs-1 text-success"></i>
+              </div>
+              <h5 class="card-title fw-bold">Nuestra Visión</h5>
+              <p class="card-text">Ser un referente en nuestra industria, reconocido por nuestra excelencia, innovación
+                y compromiso social.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Valores -->
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center border-0">
+            <div class="card-body">
+              <div class="mb-3">
+                <i class="bi bi-heart fs-1 text-danger"></i>
+              </div>
+              <h5 class="card-title fw-bold">Nuestros Valores</h5>
+              <p class="card-text">Integridad, trabajo en equipo, innovación y compromiso con la calidad en todo lo que
+                hacemos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="preguntas" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Preguntas Frecuentes</h2>
+        <p class="text-muted">Aquí tienes respuestas claras a las preguntas que más nos hacen.</p>
+      </div>
+      <div class="row gy-4">
+        <!-- Pregunta 1 -->
+        <div class="col-md-6">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="fw-bold">¿Cuál es el tiempo estimado de entrega?</h5>
+              <p class="text-muted">El tiempo de entrega varía según el producto o servicio</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pregunta 2 -->
+        <div class="col-md-6">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="fw-bold">¿Ofrecen garantía en sus productos?</h5>
+              <p class="text-muted">Sí, todos nuestros productos cuentan con una garantía de 12 meses.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pregunta 3 -->
+        <div class="col-md-6 mt-3">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="fw-bold">¿Cómo puedo contactar al soporte técnico?</h5>
+              <p class="text-muted">Puedes contactarnos a través del formulario de contacto en nuestra web o enviando un
+                correo a mamba.digital.corp@gmail.com.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pregunta 4 -->
+        <div class="col-md-6 mt-3">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="fw-bold">¿Qué métodos de pago aceptan?</h5>
+              <p class="text-muted">Aceptamos pagos con tarjeta de crédito, débito, transferencias bancarias y
+                plataformas digitales como Paypal y Mercado Pago.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="container py-5" id="contacto">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-12 "></div>
+      <div class="col-lg-6 col-sm-12 ">
+        <div class="card p-4">
+          <h2 class="text-center mb-4">Contáctanos</h2>
+          <form action="/enviar" method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico"
+                  required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"
+                required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="captcha">¿Cuánto es 3 + 2?</label>
+              <input type="text" class="form-control" id="captcha" name="captcha" required>
+            </div>
+            <div class="form-group text-center">
+              <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </div>
           </form>
         </div>
-      </nav>
-
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 cover">
-                <div class="contenedor-cover">
-                    <h1>Mamba</h1>
-                    <h2>AGENCIA DIGITAL</h2>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 
 
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="fw-bold">Nuestros Servicios</h2>
-            <p class="text-muted">Conoce todo lo que podemos hacer por ti.</p>
-          </div>
-          <div class="row gy-4">
-            <!-- Servicio 1 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-laptop fs-1 text-primary"></i>
-                  </div>
-                  <h5 class="fw-bold">Desarrollo Web</h5>
-                  <p class="text-muted">Creamos páginas web modernas, rápidas y optimizadas para tu negocio.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Servicio 2 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-phone fs-1 text-success"></i>
-                  </div>
-                  <h5 class="fw-bold">Aplicaciones Móviles</h5>
-                  <p class="text-muted">Desarrollamos apps intuitivas y personalizadas para Android e iOS.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Servicio 3 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-graph-up-arrow fs-1 text-warning"></i>
-                  </div>
-                  <h5 class="fw-bold">Marketing Digital</h5>
-                  <p class="text-muted">Impulsa tu negocio con estrategias efectivas en redes sociales y SEO.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Servicio 4 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-cloud fs-1 text-info"></i>
-                  </div>
-                  <h5 class="fw-bold">Soluciones en la Nube</h5>
-                  <p class="text-muted">Migramos y gestionamos tus servicios en la nube para mayor eficiencia.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Servicio 5 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-shield-lock fs-1 text-danger"></i>
-                  </div>
-                  <h5 class="fw-bold">Seguridad Informática</h5>
-                  <p class="text-muted">Protegemos tus datos con soluciones avanzadas de ciberseguridad.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Servicio 6 -->
-            <div class="col-lg-4 col-md-6">
-              <div class="card border-0 shadow-sm h-100 text-center">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-cart-check fs-1 text-secondary"></i>
-                  </div>
-                  <h5 class="fw-bold">E-commerce</h5>
-                  <p class="text-muted">Construimos tiendas en línea para maximizar tus ventas y alcance.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-    <section id="nosotros" class="py-5 bg-light">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="fw-bold">Sobre Nosotros</h2>
-            <p class="text-muted">Conoce nuestra historia, valores y lo que nos impulsa a seguir adelante.</p>
-          </div>
-          <div class="row gy-4">
-            <!-- Misión -->
-            <div class="col-md-4">
-              <div class="card shadow-sm text-center border-0">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-bullseye fs-1 text-primary"></i>
-                  </div>
-                  <h5 class="card-title fw-bold">Nuestra Misión</h5>
-                  <p class="card-text">Proveer soluciones innovadoras que mejoren la vida de nuestros clientes y generen un impacto positivo en la comunidad.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Visión -->
-            <div class="col-md-4">
-              <div class="card shadow-sm text-center border-0">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-lightbulb fs-1 text-success"></i>
-                  </div>
-                  <h5 class="card-title fw-bold">Nuestra Visión</h5>
-                  <p class="card-text">Ser un referente en nuestra industria, reconocido por nuestra excelencia, innovación y compromiso social.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Valores -->
-            <div class="col-md-4">
-              <div class="card shadow-sm text-center border-0">
-                <div class="card-body">
-                  <div class="mb-3">
-                    <i class="bi bi-heart fs-1 text-danger"></i>
-                  </div>
-                  <h5 class="card-title fw-bold">Nuestros Valores</h5>
-                  <p class="card-text">Integridad, trabajo en equipo, innovación y compromiso con la calidad en todo lo que hacemos.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section id="faq" class="py-5 bg-light">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="fw-bold">Preguntas Frecuentes</h2>
-            <p class="text-muted">Aquí tienes respuestas claras a las preguntas que más nos hacen.</p>
-          </div>
-          <div class="row gy-4">
-            <!-- Pregunta 1 -->
-            <div class="col-md-6">
-              <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="fw-bold text-primary">¿Cuál es el tiempo estimado de entrega?</h5>
-                  <p class="text-muted">El tiempo de entrega varía según el producto o servicio, pero normalmente oscila entre 3 a 7 días hábiles.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Pregunta 2 -->
-            <div class="col-md-6">
-              <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="fw-bold text-primary">¿Ofrecen garantía en sus productos?</h5>
-                  <p class="text-muted">Sí, todos nuestros productos cuentan con una garantía de 12 meses. Para más detalles, revisa nuestra política de garantía.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Pregunta 3 -->
-            <div class="col-md-6">
-              <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="fw-bold text-primary">¿Cómo puedo contactar al soporte técnico?</h5>
-                  <p class="text-muted">Puedes contactarnos a través del formulario de contacto en nuestra web o enviando un correo a soporte@tudominio.com.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Pregunta 4 -->
-            <div class="col-md-6">
-              <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="fw-bold text-primary">¿Qué métodos de pago aceptan?</h5>
-                  <p class="text-muted">Aceptamos pagos con tarjeta de crédito, débito, transferencias bancarias y plataformas digitales como PayPal o Mercado Pago.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      
-
-
-    <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
+        <span>Conecta con nosotros a traves de nuestras redes:</span>
       </div>
       <!-- Left -->
-  
+
       <!-- Right -->
       <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
+        <a href="https://www.facebook.com/profile.php?id=61572565731765" class="me-4 text-reset">
+          <i class="fab fa-facebook-f social-icon"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
+        <a href="https://www.instagram.com/digital_mamba/" class="me-4 text-reset">
+          <i class="fab fa-instagram social-icon"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-linkedin social-icon"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
+        <a href="https://wa.me/56994833280" class="me-4 text-reset">
+          <i class="fab fa-whatsapp social-icon"></i>
         </a>
       </div>
       <!-- Right -->
     </section>
     <!-- Section: Social media -->
-  
+
     <!-- Section: Links  -->
     <section class="">
       <div class="container text-center text-md-start mt-5">
@@ -292,69 +330,47 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
+            <h6 class="text-uppercase fw-bold mb-4">Mamba Digital
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
+              Ofrecemos servicios de desarrollo web a medida para llevar tus
+              ideas al siguiente nivel, combinando innovación y calidad en cada proyecto. ¡Construyamos juntos el futuro
+              digital de tu negocio!"
             </p>
           </div>
           <!-- Grid column -->
-  
+
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Products
+              Websites
             </h6>
             <p>
-              <a href="#!" class="text-reset">Angular</a>
+              <a href="#!" class="text-reset">E-commerce</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">React</a>
+              <a href="#!" class="text-reset">Landing Pages</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Vue</a>
+              <a href="#!" class="text-reset">Optimización SEO Básica</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Laravel</a>
+              <a href="#!" class="text-reset">Integración de APIs</a>
             </p>
           </div>
           <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
+
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
             <p>
               <i class="fas fa-envelope me-3"></i>
-              info@example.com
+              mamba.digital.corp@gmail.com
             </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3"></i> + 56 994833280</p>
+            <p><i class="fas fa-phone me-3"></i> + 56 978959197</p>
           </div>
           <!-- Grid column -->
         </div>
@@ -362,11 +378,11 @@
       </div>
     </section>
     <!-- Section: Links  -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2025 Copyright:
+      <p class="text-reset fw-bold" href="https://mdbootstrap.com/">MambaDigital.com</p>
     </div>
     <!-- Copyright -->
   </footer>
@@ -375,6 +391,9 @@
 
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </html>
