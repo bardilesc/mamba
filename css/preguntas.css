@@ -1,0 +1,57 @@
+@import url(general.css);
+
+:root {
+    --color-base: rgba(0, 10, 20, 1); /* #000A14 */
+    --color-claro: rgba(15, 25, 35, 1); /* #0F1923 */
+    --color-intermedio: rgba(30, 45, 60, 1); /* #1E2D3C */
+    --color-complementario-calido: rgb(65, 200, 209); /* #C85A3C */
+    --color-secundario-frio: rgba(0, 80, 120, 1); /* #005078 */
+  
+    /* Transparencias útiles */
+    --color-base-semitransparente: rgba(0, 10, 20, 0.5);
+    --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
+  }
+
+
+  #preguntas {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
+
+    padding: 3rem 1rem;
+  }
+  
+  #preguntas h2 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  #preguntas p.text-muted {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  #preguntas .card {
+    background: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #preguntas .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  
+  #preguntas .card-body h5 {
+    color: var(--color-intermedio);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  
+  #preguntas .card-body p {
+    font-size: 1rem;
+    color: #495057;
+    line-height: 1.5;
+  }
+  

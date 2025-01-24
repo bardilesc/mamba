@@ -1,0 +1,61 @@
+@import url(general.css);
+
+:root {
+    --color-base: rgba(0, 10, 20, 1); /* #000A14 */
+    --color-claro: rgba(15, 25, 35, 1); /* #0F1923 */
+    --color-intermedio: rgba(30, 45, 60, 1); /* #1E2D3C */
+    --color-complementario-calido: rgb(65, 200, 209); /* #C85A3C */
+    --color-secundario-frio: rgba(0, 80, 120, 1); /* #005078 */
+  
+    /* Transparencias útiles */
+    --color-base-semitransparente: rgba(0, 10, 20, 0.5);
+    --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
+  }
+
+  #nosotros {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), var(--color-intermedio));
+
+    padding: 3rem 1rem;
+  }
+  
+  #nosotros h2 {
+    color: white; /* Color destacado para el título */
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  #nosotros p.text-muted {
+    font-size: 1.1rem;
+    color: var(--color-secundario); /* Texto en tono secundario */
+  }
+  
+  #nosotros .card {
+    background: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #nosotros .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  
+  #nosotros .card-title {
+    color: var(--color-principal); /* Color principal para los títulos */
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  #nosotros .card-text {
+    font-size: 1rem;
+    color: var(--color-intermedio); /* Texto en tono intermedio */
+    line-height: 1.5;
+  }
+  
+  #nosotros .card-body i {
+    font-size: 2.5rem; /* Tamaño de los íconos */
+    margin-bottom: 1rem;
+  }
+  

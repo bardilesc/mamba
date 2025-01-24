@@ -20,7 +20,7 @@
 }
 
 .cover {
-  background-image: url('https://images.pexels.com/photos/3584994/pexels-photo-3584994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: linear-gradient(to top, rgba(0, 10, 20, 1), rgba(0, 10, 20, 0)), url('../img/fondo1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -31,6 +31,7 @@
   align-items: center;
   display: flex;
 }
+
 
 .cover .contenedor-cover {
   text-align: center;
