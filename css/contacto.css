@@ -13,7 +13,7 @@
   }
 
   #contacto {
-    background: linear-gradient(to bottom, #f8f9fa, var(--color-intermedio));
+    background: white;
     color: white;
     padding: 3rem 1rem;
     max-width: 100%;

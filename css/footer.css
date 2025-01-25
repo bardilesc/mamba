@@ -1,20 +1,58 @@
 @import url(general.css);
 
 :root {
-    --color-base: rgba(0, 10, 20, 1); /* #000A14 */
-    --color-claro: rgba(15, 25, 35, 1); /* #0F1923 */
-    --color-intermedio: rgba(30, 45, 60, 1); /* #1E2D3C */
-    --color-complementario-calido: rgb(65, 200, 209); /* #C85A3C */
-    --color-secundario-frio: rgba(0, 80, 120, 1); /* #005078 */
-  
-    /* Transparencias útiles */
-    --color-base-semitransparente: rgba(0, 10, 20, 0.5);
-    --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
-  }
+  --color-base: rgba(0, 10, 20, 1);
+  /* #000A14 */
+  --color-claro: rgba(15, 25, 35, 1);
+  /* #0F1923 */
+  --color-intermedio: rgba(30, 45, 60, 1);
+  /* #1E2D3C */
+  --color-complementario-calido: rgb(65, 200, 209);
+  /* #C85A3C */
+  --color-secundario-frio: rgba(0, 80, 120, 1);
+  /* #005078 */
+
+  /* Transparencias útiles */
+  --color-base-semitransparente: rgba(0, 10, 20, 0.5);
+  --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
+}
 
 .social-icon {
-    font-size: 2rem; /* Ajusta el tamaño de los íconos */
-    margin-right: 20px; /* Ajusta el margen entre los íconos */
-    color: var(--color-base);
-  }
-  
+  font-size: 2rem;
+  /* Ajusta el tamaño de los íconos */
+  margin-right: 20px;
+  /* Ajusta el margen entre los íconos */
+
+}
+
+.custom-footer {
+  background: linear-gradient(to bottom, var(--color-intermedio), var(--color-intermedio) 30%);
+  color: white;
+}
+
+.social-media-section {
+  background: transparent;
+}
+
+.social-links a,
+span {
+  color: white !important;
+}
+
+.social-icon {
+  color: white !important;
+}
+
+.links-section h6,
+.links-section p,
+.links-section a {
+  color: white !important;
+}
+
+.copyright-section {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.copyright-section p {
+  color: white !important;
+}
