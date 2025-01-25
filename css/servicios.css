@@ -12,8 +12,9 @@
     --color-claro-semitransparente: rgba(15, 25, 35, 0.5);
   }
   
+  /* Planes */
   section.pricing {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
+    background: linear-gradient(to top, white, rgba(0, 10, 20, 1));
   }
   
   
@@ -79,3 +80,25 @@
       opacity: 1;
     }
   }
+  
+
+
+
+  /* Servicios */
+
+
+  /* Fondo degradado para la sección "Nuestros Servicios" */
+.services-section {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
+  color: white;
+}
+
+.services-section h2,
+.services-section p {
+  color: white;
+}
+
+/* Opcional: Ajustes para las tarjetas */
+.services-section .border {
+  background: white;
+}
