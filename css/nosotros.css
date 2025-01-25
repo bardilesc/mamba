@@ -58,3 +58,9 @@
     margin-bottom: 1rem;
   }
   
+
+  @media (max-width: 768px) {
+    #nosotros .card {
+      margin: 10px 0;
+    }
+  }

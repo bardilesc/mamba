@@ -55,3 +55,9 @@
     line-height: 1.5;
   }
   
+
+  @media (max-width: 768px) {
+    #preguntas .card {
+      margin: 10px 0; /* Margen vertical entre tarjetas */
+    }
+  }
