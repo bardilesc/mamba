@@ -14,15 +14,16 @@
 
 
   #preguntas {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
+    background: white;
 
     padding: 3rem 1rem;
   }
   
   #preguntas h2 {
-    color: white;
+    color: var(--color-base);
     font-weight: 700;
     margin-bottom: 1rem;
+    font-size: 2rem;
   }
   
   #preguntas p.text-muted {

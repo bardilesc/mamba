@@ -14,7 +14,7 @@
   /* Contenedor */
 
 .fondo{
-    background: linear-gradient(to bottom, white, var(--color-intermedio));
+    background: linear-gradient(to bottom, white, white);
     padding-bottom: 25px;
 
 }

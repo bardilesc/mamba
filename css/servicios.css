@@ -89,8 +89,8 @@
 
   /* Fondo degradado para la sección "Nuestros Servicios" */
 .services-section {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
-  color: white;
+  background: #e9ecef;
+  color: var(--color-base);
 }
 
 .services-section h2,
@@ -103,24 +103,25 @@
   background: white;
 }
 
-/* Estilos para la sección de servicios */
-.services-section {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), var(--color-intermedio));
-  color: white;
-}
 
 .services-section h2,
 .services-section p {
-  color: white;
+  color: var(--color-base);
   text-align: center;
+  font-size: 2.5rem;
 }
 
+.services-section p {
+  color: var(--color-base);
+  text-align: center;
+  font-size: 1.1rem;
+}
 /* Estilo para las tarjetas */
 .service-card {
   background: #fff;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   position: relative;
   text-align: center;
   transition: all 0.3s ease;
@@ -130,7 +131,7 @@
 
 .service-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
 }
 
 .service-card i {
